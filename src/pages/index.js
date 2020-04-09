@@ -1,3 +1,22 @@
-import React from "react"
+import React, { useState } from "react"
+// import Link from "gatsby-link"
 
-export default () => <div>Hello world!</div>
+const Index = () => {
+    const [counter, setCounter] = useState(0)
+
+    return (
+        <>
+            <input type="button" value="+" onClick={_ => setCounter(counter - 1)} />
+            <p>{counter}</p>
+            <input type="button" value="-" onClick={_ => setCounter(counter + 1)} />
+        </>
+    )
+}
+
+export default Index
+
+// export default () => 
+//     <div>
+//         <h1>Hello world!</h1>
+//         {/* <Link to="/page-2" >link to page 2</Link> */}
+//     </div>
