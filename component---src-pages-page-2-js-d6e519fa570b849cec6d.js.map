@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/page-2.js"],"names":[],"mappings":"2FAAA,gCAEe,4BAAM","file":"component---src-pages-page-2-js-d6e519fa570b849cec6d.js","sourcesContent":["import React from \"react\"\r\n\r\nexport default () => <h1>Page 2</h1>"],"sourceRoot":""}
