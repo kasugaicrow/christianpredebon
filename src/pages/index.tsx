@@ -1,8 +1,9 @@
 import React, { useState } from "react"
+import "./index.scss"
 // import Link from "gatsby-link"
 
 const Index = () => {
-    const [counter, setCounter] = useState(0)
+    const [counter, setCounter] = useState<number>(0)
 
     return (
         <>
