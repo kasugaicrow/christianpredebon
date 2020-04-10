@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-import "./src/index.scss"
+
 module.exports = {
   /* Your site config here */
   siteMetadata: {
