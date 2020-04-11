@@ -1,24 +1,24 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-any": true,
+    "no-string-literal": false,
+    "space-before-function-paren": true,
+    "semicolon": [
+      true,
+      "never"
     ],
-    "jsRules": {},
-    "rules": {
-        "no-any": true,
-        "no-string-literal": false,
-        "space-before-function-paren": false,
-        "semicolon": [ 
-            true, 
-            "never" 
-        ],
-        "quotemark": [
-            true, 
-            "double", 
-            "avoid-escape", 
-            "avoid-template"
-        ]
-        
-    },
-    "rulesDirectory": []
+    "quotemark": [
+      true,
+      "double",
+      "avoid-escape",
+      "avoid-template"
+    ]
+
+  },
+  "rulesDirectory": []
 }

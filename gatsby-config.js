@@ -7,12 +7,21 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
+    author: "Christian Predebon",
     title: 'Christian Predebon',
     siteUrl: 'https://christianpredebon.it'
   },
   plugins: [
     `gatsby-plugin-typescript`,
     'gatsby-plugin-tslint',
-    `gatsby-plugin-sass`   
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`
   ]
 }

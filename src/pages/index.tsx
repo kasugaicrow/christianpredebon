@@ -1,23 +1,26 @@
-import React, { useState } from "react"
+import React from "react"
 import "./index.scss"
-// import Link from "gatsby-link"
+import Navbar from "../layouts/navbar"
 
 const Index = () => {
-    const [counter, setCounter] = useState<number>(0)
+  
+  return (
+    <html lang="en">
+      <head>
+        <meta charSet="utf-8"/>
+        <meta name="description" content="Curious CSS enthusiastic front-end developer" />
 
-    return (
-        <>
-            <input type="button" value="+" onClick={_ => setCounter(counter - 1)} />
-            <p>{counter}</p>
-            <input type="button" value="-" onClick={_ => setCounter(counter + 1)} />
-        </>
-    )
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" /> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet" /> 
+      </head>
+
+      <body>
+        <Navbar>
+
+        </Navbar>
+      </body>
+    </html>
+  )
 }
 
 export default Index
-
-// export default () => 
-//     <div>
-//         <h1>Hello world!</h1>
-//         {/* <Link to="/page-2" >link to page 2</Link> */}
-//     </div>
