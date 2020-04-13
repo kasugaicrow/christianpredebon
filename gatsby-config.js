@@ -9,7 +9,9 @@ module.exports = {
   siteMetadata: {
     author: "Christian Predebon",
     title: 'Christian Predebon',
-    siteUrl: 'https://christianpredebon.it'
+    siteUrl: 'https://christianpredebon.it',
+    description: 'Personal website of Christian Predebon',
+    twitterUsername: '@ChristianP998'
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -22,6 +24,13 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-163346811-1",
+      }
+    }
   ]
 }

@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@300;400&display=swap');
 html {
-  background-color: #161e2b;
+  background-color: #171123;
   color: #a9a9b3;
   font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  // padding: 1rem;
 }
 
 h1 {
@@ -14,7 +21,7 @@ p {
 }
 
 a {
-  color: #4a4238;
+  color: #f46036;
   text-decoration: none;
 }
 

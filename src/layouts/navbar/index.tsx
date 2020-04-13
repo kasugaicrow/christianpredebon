@@ -7,21 +7,29 @@ import ContactIcon from './icons/contact'
 import BlogIcon from './icons/blog'
 
 const Navbar: React.FC = (props) => {
+  const [visMobileMenu, setVisMobileMenu] = useState(false)
+
   const as = {
-    color: '#e0f0fc'
+    color: '#f46036'
+  }
+
+  const handleBlur = () => {
+    setTimeout(() => {
+      setVisMobileMenu(false)
+    }, 100)
   }
 
   return (
     <>
-      <nav className="nav">
+      <nav className="nav desktop">
         <div className="nav__items">
           
-          <Link to="about" className="nav__items__item" activeStyle={as}>
+          <Link to="/" className="nav__items__item" activeStyle={as}>
             <UserIcon isFilled={false} />
             <span>about</span>
           </Link>
 
-          <Link to="blog" className="nav__items__item" activeStyle={as}>
+          {/* <Link to="blog" className="nav__items__item" activeStyle={as}>
             <BlogIcon isFilled={false} />
             <span>blog</span>
           </Link>
@@ -29,8 +37,24 @@ const Navbar: React.FC = (props) => {
           <Link to="contact" className="nav__items__item" activeStyle={as}>
             <ContactIcon isFilled={false} />
             <span>contact</span>
-          </Link>
+          </Link> */}
 
+        </div>
+      </nav>
+      <nav className="mobile">
+        <div className="dropdown">
+          <div className="dropdown-button" onClick={() => setVisMobileMenu(!visMobileMenu)} onBlur={handleBlur} tabIndex={0}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          {visMobileMenu && (
+            <div className="dropdown-content">
+              <Link to="/">about</Link>
+              {/* <Link to="blog">blog</Link>
+              <Link to="contact">contact</Link> */}
+            </div>
+          )}
         </div>
       </nav>
       <main>
