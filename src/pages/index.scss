@@ -29,3 +29,7 @@ a {
   width: 36rem;
   max-height: 36rem;
 }
+
+*:focus {
+  outline: none;
+}
