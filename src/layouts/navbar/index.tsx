@@ -10,7 +10,7 @@ const Navbar: React.FC = (props) => {
   const [visMobileMenu, setVisMobileMenu] = useState(false)
 
   const as = {
-    color: '#f46036'
+    color: '#d68f2c'
   }
 
   const handleBlur = () => {

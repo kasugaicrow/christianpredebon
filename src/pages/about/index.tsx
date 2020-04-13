@@ -5,12 +5,12 @@ import SEO from "../../layouts/seo"
 const About = () => {
   return (
     <div className="application">
-      <SEO title="Hello" description="My name's Christian Predebon and I'm a front end developer." />
+      <SEO title="About me" description="My name's Christian Predebon. I'm twenty-one and I'm a curious front end developer who loves to always keep up to date with new stuff and to try different technologies." />
       <Navbar>
-        <h1>about me</h1>
+        <h1>About me</h1>
         <p>My name's Christian Predebon.</p>
         
-        <p>I'm a curious front end developer who loves to always keep up to date with new stuff and to try different technologies.</p>
+        <p>I'm twenty-one and I'm a curious front end developer who loves to always keep up to date with new stuff and to try different technologies.</p>
 
         <p>I am currently work at <a href="https://zeuslab.it">Zeuslab</a> on the research and development team. My mainly involvement with the team is to develop and maintain web applications.</p>
 
