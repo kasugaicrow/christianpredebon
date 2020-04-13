@@ -70,7 +70,6 @@ main {
 
 .dropdown-button {
   cursor: pointer;
-  outline: none;
   div {
     width: 25px;
     height: 2px;
@@ -85,6 +84,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  outline: none;
 }
 
 .dropdown-content {
