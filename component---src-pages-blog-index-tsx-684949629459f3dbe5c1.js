@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{thP6:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),l=a.n(t),r=a("PEAQ"),i=a("7VsN");n.default=function(){return l.a.createElement("div",{className:"application"},l.a.createElement(i.a,{title:"Blog",description:"My name's Christian Predebon and I'm a front end developer."}),l.a.createElement(r.a,null,l.a.createElement("h1",null,"blog")))}}}]);
+//# sourceMappingURL=component---src-pages-blog-index-tsx-684949629459f3dbe5c1.js.map
