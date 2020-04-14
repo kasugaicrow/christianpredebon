@@ -55,17 +55,14 @@ main {
   justify-content: center;
   -moz-box-align: center;
   align-items: center;
-  -moz-box-flex: 1;
-  flex-grow: 1;
   padding: 8rem;
+  transition: all .2s;
 }
 
 .mobile {
   display: none;
   justify-content: flex-end;
-  height: 35px;
   padding: 1rem;
-  background-color: #140e1e;
 }
 
 .dropdown-button {
@@ -114,6 +111,6 @@ main {
     display: flex;
   }
   main {
-    padding: 1rem;
+    padding: 0 1rem 5rem;
   }
 }

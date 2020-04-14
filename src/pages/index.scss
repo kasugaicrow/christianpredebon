@@ -8,11 +8,11 @@ html {
 
 body {
   margin: 0;
-  // padding: 1rem;
 }
 
 h1 {
   font-size: 2.5rem;
+  color: #d68f2c;
 }
 
 p {
@@ -23,6 +23,10 @@ p {
 a {
   color: #d68f2c;
   text-decoration: none;
+}
+
+.is-size-medium {
+  font-size: 1.3rem;
 }
 
 .pages-container {
