@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@300;400&display=swap');
+@import "variables.scss";
 html {
-  background-color: #10101b;
-  color: #c2c2c9;
+  background-color: $eerie-black;
+  color: $dark-medium-gray;
   font-family: 'Inter', sans-serif;
 }
 
@@ -12,7 +13,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  color: #d68f2c;
+  color: $tigers-eye;
 }
 
 p {
@@ -21,7 +22,7 @@ p {
 }
 
 a {
-  color: #d68f2c;
+  color: $tigers-eye;
   text-decoration: none;
 }
 

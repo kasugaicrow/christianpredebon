@@ -8,7 +8,7 @@ const Contact = () => {
       <SEO title="Hello" description="My name's Christian Predebon and I'm a front end developer." />
       <h1>Hello</h1>
 
-      <p>Feel free to write me to ask me everything :)</p>
+      <p>Feel free to write me to ask everything :)</p>
 
       <h2><a href="mailto:hello@christianpredebon.it">hello@christianpredebon.it</a></h2>
 

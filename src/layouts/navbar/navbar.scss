@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import "../../pages/index";
 .nav {
   position: fixed;
   top: 0px;
@@ -33,7 +34,7 @@
       justify-content: flex-start;
       align-items: center;
       max-width: 100px;
-      color: rgba(#e0fbfc, .6);
+      color: rgba($dark-medium-gray, .6);
       svg {
         width: 30px;
         height: 30px;
@@ -70,7 +71,7 @@ main {
   div {
     width: 25px;
     height: 2px;
-    background-color: #a9a9b3;
+    background-color: $dark-medium-gray;
     border-radius: 5px;
     margin: 4px 0;
   }
@@ -86,7 +87,7 @@ main {
 .dropdown-content {
   top: 35px;
   position: absolute;
-  background-color: #271e51;
+  background-color: $space-cadet;
   padding: 5px;
   border-radius: 5px;
   overflow: auto;
@@ -96,7 +97,7 @@ main {
 }
 
 .dropdown-content a {
-  color: #dbd9e7;
+  color: $dark-medium-gray;
   padding: 12px 16px;
   text-decoration: none;
   text-transform: capitalize;
