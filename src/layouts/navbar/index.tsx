@@ -28,10 +28,10 @@ const Navbar: React.FC = (props) => {
             <span>about</span>
           </Link>
 
-          {/* <Link to="blog" className="nav__items__item" activeStyle={as}>
+          <Link to="blog" className="nav__items__item" activeStyle={as}>
             <BlogIcon />
             <span>blog</span>
-          </Link> */}
+          </Link>
 
           <Link to="contact" className="nav__items__item" activeStyle={as}>
             <ContactIcon />
@@ -49,7 +49,7 @@ const Navbar: React.FC = (props) => {
           </div>
           {visMobileMenu && (
             <div className="dropdown-content">
-              {/* <Link to="/">about</Link> */}
+              <Link to="/">about</Link>
               <Link to="blog">blog</Link>
               <Link to="contact">contact</Link>
             </div>

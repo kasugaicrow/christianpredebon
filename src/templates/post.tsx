@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Navbar from "../layouts/navbar"
+import SEO from "../layouts/seo"
 
 const Template: React.FC<{ data: any }> = ({ data }) => {
   const post = data.markdownRemark
@@ -8,6 +9,7 @@ const Template: React.FC<{ data: any }> = ({ data }) => {
   return (
     <div className="application">
       <Navbar>
+        <SEO title={`Blog :: ${post.frontmatter.title}`} description={post.frontmatter.excerpt} />
         <div className="post">
           <h1 className="post__title">{post.frontmatter.title}</h1>
 
@@ -36,6 +38,7 @@ export const postQuery = graphql`
         title
         date
         tags
+        excerpt
       }
     }
   }

@@ -19,7 +19,7 @@ const About = () => {
 
         <p>Off work I love to read, play video games, go on with personal projects and taking walks.</p>
 
-        {/* <Newsletter /> */}
+        <Newsletter />
       </Navbar>
     </div>
   )
