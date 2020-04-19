@@ -3,7 +3,6 @@ import "./index.scss"
 import About from "./about"
 
 const Index = () => {
-  
   return <About />
 }
 
