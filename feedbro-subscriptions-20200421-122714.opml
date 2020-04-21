@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>Feed Subscriptions</title>
+</head>
+<body>
+      <outline text="christianpredebon.it" title="christianpredebon.it" type="rss" 
+            xmlUrl="https://christianpredebon.it/rss.xml" htmlUrl="https://christianpredebon.it"/>
+</body>
+</opml>
