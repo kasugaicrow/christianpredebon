@@ -103,6 +103,15 @@ main {
   display: block;
 }
 
+.footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: rgba($dark-medium-gray, .6);
+  a {
+    color: rgba($tigers-eye, .6)
+  }
+}
+
 @media only screen and (max-width: 1100px) {
   .desktop {
     display: none;

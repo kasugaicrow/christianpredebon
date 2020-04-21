@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import "./navbar.scss"
 import { Link } from "gatsby"
 import UserIcon from "./icons/user"
@@ -23,15 +23,15 @@ const Navbar: React.FC = (props) => {
       <nav className="nav desktop">
         <div className="nav__items">
 
-          <Link to="/" className="nav__items__item" activeStyle={as}>
+          <Link to="about" className="nav__items__item" activeStyle={as}>
             <UserIcon />
             <span>about</span>
           </Link>
-{/* 
-          <Link to="blog" className="nav__items__item" activeStyle={as}>
+
+          <Link to="/" className="nav__items__item" activeStyle={as}>
             <BlogIcon />
             <span>blog</span>
-          </Link> */}
+          </Link>
 
           <Link to="contact" className="nav__items__item" activeStyle={as}>
             <ContactIcon />
@@ -49,8 +49,8 @@ const Navbar: React.FC = (props) => {
           </div>
           {visMobileMenu && (
             <div className="dropdown-content">
-              <Link to="/">about</Link>
-              {/* <Link to="blog">blog</Link> */}
+              <Link to="about">about</Link>
+              <Link to="/">blog</Link>
               <Link to="contact">contact</Link>
             </div>
           )}
@@ -61,6 +61,9 @@ const Navbar: React.FC = (props) => {
           {props.children}
         </div>
       </main>
+      <div className="footer">
+        <p>• Christian Predebon. Built with <a href="https://www.gatsbyjs.org/">Gatsby</a> •</p>
+      </div>
     </>
   )
 }

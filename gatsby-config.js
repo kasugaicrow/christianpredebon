@@ -64,12 +64,6 @@ module.exports = {
         trackingId: "UA-163346811-1",
       }
     },
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: 'https://christianpredebon.us4.list-manage.com/subscribe/post?u=335709d53062f86517a064763&amp;id=d7afe50e91'
-      }
-    },
     `gatsby-plugin-feed`
   ]
 }

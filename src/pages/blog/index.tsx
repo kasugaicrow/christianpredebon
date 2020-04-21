@@ -1,9 +1,29 @@
 import React from "react"
 import Navbar from "../../layouts/navbar"
 import SEO from "../../layouts/seo"
-import { graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
-const Blog: React.FC<{ data?: any }> = ({ data }) => {
+const Blog: React.FC = () => {
+
+  const data = useStaticQuery(graphql`
+  query Posts {
+    allMarkdownRemark(limit: 10) {
+      edges { 
+        node {
+          id 
+          frontmatter {
+            title
+            path
+            date
+            excerpt
+            tags
+          }
+        }
+      }
+    }
+  }
+`)
+
   return (
     <div className="application">
       <SEO title="Blog" description="My name's Christian Predebon and I'm a front end developer." />
@@ -29,21 +49,21 @@ const Blog: React.FC<{ data?: any }> = ({ data }) => {
 
 export default Blog
 
-export const blogQuery = graphql`
-  query Posts {
-    allMarkdownRemark(limit: 10) {
-      edges { 
-        node {
-          id 
-          frontmatter {
-            title
-            path
-            date
-            excerpt
-            tags
-          }
-        }
-      }
-    }
-  }
-`
+// export const blogQuery = graphql`
+//   query Posts {
+//     allMarkdownRemark(limit: 10) {
+//       edges { 
+//         node {
+//           id 
+//           frontmatter {
+//             title
+//             path
+//             date
+//             excerpt
+//             tags
+//           }
+//         }
+//       }
+//     }
+//   }
+// `

@@ -1,9 +1,10 @@
 import React from "react"
 import "./index.scss"
 import About from "./about"
+import Blog from "./blog"
 
 const Index = () => {
-  return <About />
+  return <Blog />
 }
 
 export default Index

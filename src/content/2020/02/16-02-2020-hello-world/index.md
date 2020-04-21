@@ -18,4 +18,4 @@ I want to focus this blog on few things:
 
 I don't know how it will end but I hope to be able to bring good content and interesting topic.
 
-If you think it might interest you, feel free to [subscribe](https://christianpredebon.it/) or just check back in a while.
+> I haven't any newsletter, but if you think it might be interest you, feel free to link my [rss](https://christianpredebon.it/rss.xml) feed inside something like [feedbro](https://nodetics.com/feedbro/) or just check back in a while.
