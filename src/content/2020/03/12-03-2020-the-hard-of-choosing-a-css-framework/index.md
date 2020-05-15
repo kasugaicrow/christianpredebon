@@ -34,29 +34,36 @@ The reason is simple and it's because we have a looot of framework out there.
 
 > I ended here the list but really, it could go on much longer than that. I thought it was enough to make you understand the range of options we have available.
 
-<br />
 Anyway, although the set is wide, with many mistakes I understood that not all solutions answer all the questions, for this reason over time I tried to identify which aspects I think should be taken into consideration in order to choose the right framework.
 
-### LANGUAGE
+<br />
+
+## LANGUAGE
 
 Lot of frameworks are written in [SCSS](https://sass-lang.com/), other in [LESS](http://lesscss.org/) and other again in plain CSS. Choose based on the language you feel more comfortable with.
 
-### RESPONSIVENESS
+<br />
+
+## RESPONSIVENESS
 
 Since I guess you won't want spend most of your time writing [media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp), choose a framework that it's mobile-ready, that therefore does not require modifications to work well on a phone rather than on a tablet.
 
-### FEATURES
+<br />
+
+## FEATURES
 
 Each framework offers a wide range of features out of the box, from the simple button to the spinner for the loading time. Identifies the components you want to use and considers choosing a framework based on the availability of its components.
 
 <br />
 <h2 style="text-align: center;font-style: italic;">What is the target of this new application, what type of users will have to use it and in which area?</h2>
 
-<br />
-<br />
 One of the fundamental things for choosing a CSS framework is precisely identifying by whom the application will be used, who will be the main user and where it will be used (I mean the place, an office rather than a field of land). 
-<br /><br />
+
+<br />
+
 This information will help you to complete the project in the best way.
+
+<br />
 
 For instance:
 
