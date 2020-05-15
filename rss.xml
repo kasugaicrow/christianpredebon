@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Christian Predebon]]></title><description><![CDATA[Personal website of Christian Predebon]]></description><link>https://christianpredebon.it</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 May 2020 12:54:12 GMT</lastBuildDate><item><title><![CDATA[Hello world]]></title><description><![CDATA[This is my first attempt at a blog. I'm not a journalist and I don't want to be, I just wanted a safe corner where I could publish some…]]></description><link>https://christianpredebon.it/2020/02/16-02-2020-hello-world/</link><guid isPermaLink="false">https://christianpredebon.it/2020/02/16-02-2020-hello-world/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;This is my first attempt at a blog. I&apos;m not a journalist and I don&apos;t want to be, I just wanted a safe corner where I could publish some opinions and some programming related stuff.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Christian Predebon]]></title><description><![CDATA[Personal website of Christian Predebon]]></description><link>https://christianpredebon.it</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 May 2020 12:59:31 GMT</lastBuildDate><item><title><![CDATA[Hello world]]></title><description><![CDATA[This is my first attempt at a blog. I'm not a journalist and I don't want to be, I just wanted a safe corner where I could publish some…]]></description><link>https://christianpredebon.it/2020/02/16-02-2020-hello-world/</link><guid isPermaLink="false">https://christianpredebon.it/2020/02/16-02-2020-hello-world/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;This is my first attempt at a blog. I&apos;m not a journalist and I don&apos;t want to be, I just wanted a safe corner where I could publish some opinions and some programming related stuff.&lt;/p&gt;
 &lt;p&gt;I&apos;m also quite young and I&apos;m relatively new of programming, so you will see a lot of &lt;em&gt;What x is used for?&lt;/em&gt; articles about a technology that I learned two days before.&lt;/p&gt;
 &lt;p&gt;I want to focus this blog on few things:&lt;/p&gt;
 &lt;ul&gt;
@@ -35,21 +35,22 @@
 &lt;blockquote&gt;
 &lt;p&gt;I ended here the list but really, it could go on much longer than that. I thought it was enough to make you understand the range of options we have available.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;Anyway, although the set is wide, with many mistakes I understood that not all solutions answer all the questions, for this reason over time I tried to identify which aspects I think should be taken into consideration in order to choose the right framework.&lt;/p&gt;
 &lt;br /&gt;
-Anyway, although the set is wide, with many mistakes I understood that not all solutions answer all the questions, for this reason over time I tried to identify which aspects I think should be taken into consideration in order to choose the right framework.
-&lt;h3&gt;LANGUAGE&lt;/h3&gt;
+&lt;h2&gt;LANGUAGE&lt;/h2&gt;
 &lt;p&gt;Lot of frameworks are written in &lt;a href=&quot;https://sass-lang.com/&quot;&gt;SCSS&lt;/a&gt;, other in &lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS&lt;/a&gt; and other again in plain CSS. Choose based on the language you feel more comfortable with.&lt;/p&gt;
-&lt;h3&gt;RESPONSIVENESS&lt;/h3&gt;
+&lt;br /&gt;
+&lt;h2&gt;RESPONSIVENESS&lt;/h2&gt;
 &lt;p&gt;Since I guess you won&apos;t want spend most of your time writing &lt;a href=&quot;https://www.w3schools.com/css/css_rwd_mediaqueries.asp&quot;&gt;media queries&lt;/a&gt;, choose a framework that it&apos;s mobile-ready, that therefore does not require modifications to work well on a phone rather than on a tablet.&lt;/p&gt;
-&lt;h3&gt;FEATURES&lt;/h3&gt;
+&lt;br /&gt;
+&lt;h2&gt;FEATURES&lt;/h2&gt;
 &lt;p&gt;Each framework offers a wide range of features out of the box, from the simple button to the spinner for the loading time. Identifies the components you want to use and considers choosing a framework based on the availability of its components.&lt;/p&gt;
 &lt;br /&gt;
 &lt;h2 style=&quot;text-align: center;font-style: italic;&quot;&gt;What is the target of this new application, what type of users will have to use it and in which area?&lt;/h2&gt;
+&lt;p&gt;One of the fundamental things for choosing a CSS framework is precisely identifying by whom the application will be used, who will be the main user and where it will be used (I mean the place, an office rather than a field of land). &lt;/p&gt;
 &lt;br /&gt;
+&lt;p&gt;This information will help you to complete the project in the best way.&lt;/p&gt;
 &lt;br /&gt;
-One of the fundamental things for choosing a CSS framework is precisely identifying by whom the application will be used, who will be the main user and where it will be used (I mean the place, an office rather than a field of land). 
-&lt;br /&gt;&lt;br /&gt;
-This information will help you to complete the project in the best way.
 &lt;p&gt;For instance:&lt;/p&gt;
 &lt;p&gt;If the application is to be used by a fifth grade class then I head towards a solution that prefers simple lines, the use of many colors and plenty of &lt;a href=&quot;https://www.w3schools.com/css/css_padding.asp&quot;&gt;padding&lt;/a&gt;, something like &lt;a href=&quot;https://bulma.io/&quot;&gt;Bulma&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If I have to present my application to bankers, then I can opt for a more sober solution, that leaves no room for too many frills, which does not distract too much from what must be the main functionality, something like &lt;a href=&quot;https://semantic-ui.com/&quot;&gt;Sematic UI&lt;/a&gt;.&lt;/p&gt;
